@@ -1,0 +1,4 @@
+-r ../../segmentation/requirements.txt
+opencv-python
+tifffile
+scipy
