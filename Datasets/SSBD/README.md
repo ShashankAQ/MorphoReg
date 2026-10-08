@@ -8,6 +8,39 @@
 
 Accession: **ssbd-repos-000237**
 
+## Data Description
+
+The study predicts **transcriptome-defined cell phenotypes from
+label-free brightfield time-lapse images**.
+
+Cell labels are derived from **single-cell RNA sequencing (scRNA-seq)**,
+while the prediction models receive **cell images and their temporal
+dynamics**. This enables noninvasive prediction of molecularly defined
+phenotypes from live-cell images.
+
+The dataset contains **1,354 cells**, comprising **1,008 cell-line
+cells** and **346 peripheral blood mononuclear cells (PBMCs)**.
+
+| Population | Cell type | Cell count |
+|---|---|---:|
+| Cell lines | T cells | 318 |
+| Cell lines | Leukemia cells | 423 |
+| Cell lines | Hematopoietic progenitor cells (HPCs) | 267 |
+| PBMCs | CD4+ T cells | 152 |
+| PBMCs | CD8+ T cells | 103 |
+| PBMCs | B cells | 91 |
+| **Total** | | **1,354** |
+
+### Time-lapse sequences
+
+Each cell has a time-lapse sequence extending from **0 minutes to
+the final recorded time point (n minutes)**. The documented acquisition
+schedule consists of **30 frames at one-minute intervals**, spanning
+**0–29 minutes**.
+
+Each sequence folder contains the successive images of a cell,
+allowing analysis of both its appearance and its changes over time.
+
 ## Reference
 
 Jin, J., Ogawa, T., Hojo, N., Kryukov, K., Shimizu, K., Ikawa, T.,
